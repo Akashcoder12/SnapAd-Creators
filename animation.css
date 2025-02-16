@@ -1,0 +1,26 @@
+/* @keyframes colorChange{
+      0%{color:red;}
+      50%{color:blue;}
+      100%{color:green;}
+
+}
+
+.logo p a{
+     font-size: 24px;
+     font-weight: bold;
+     animation:colorChange 3s infinite;
+} */
+
+/* 
+@keyframes moveText{
+    from{transform:translateX(-10%);}
+    to{transform:translateX(10%);}
+}
+
+.logo p a{
+    font-size: 24px;
+    display: inline-block;
+    animation: moveText 2s ease-in-out infinite;
+} */
+
+

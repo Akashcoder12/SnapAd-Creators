@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color:g;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: burlywood;
+
+        }
+        
+        
+
+        form h2{
+            
+            box-shadow: 0 4px 8px;
+            width: fit-content;
+            border-radius: 5px;
+    
+        }
+
+        .form{
+            margin-top: 7rem;
+            background-color: seashell;
+            border: 2pxs solid black;
+            width: 60%;
+            padding: 1rem;
+            border-radius: 1rem;
+            
+        }
+      
+
+        label>input{
+            font-weight: bold;
+            margin-top: 2px;
+            border: none;
+            background-color:lightblue;
+            border-radius:5px;
+        }
+
+        button{
+            font-weight: bold;
+            border: none;
+            background-color: cadetblue;
+            border-radius: 3px;
+
+        }
+     
+        @media (max-width:768px) {
+            form h2{
+                box-shadow: 0 4px 8px;
+                text-align: center;
+                border-radius: 5px;
+                width:80%;
+            }
+                 
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form">
+        
+       <form action="#">
+        <h2>SnapAd-creators</h2>
+          <label for="name">
+            email: <input type="email" placeholder="xyz@gmail.com">
+          </label><br>
+          <label for="create_password">
+            password:<input type="password" placeholder="password"></input>
+        </label><br>
+        <label for="confirm_password">
+            confirm password: <input type="password" placeholder="confirm password">
+        </label><br>
+         <button type="submit">Login</button>
+         <button type="reset">Reset</button>
+         <span><a href="sign.html
+            ">already have account?</a></span>
+       </form>
+    </div>
+</body>
+</html>
